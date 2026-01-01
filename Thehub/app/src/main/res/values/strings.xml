@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Thehub</string>
+    <string name="finance_title">财务管理</string>
+    <string name="campus_title">校园助手</string>
+    <string name="tools_title">极客工具</string>
+    <string name="add_expense">记一笔</string>
+    <string name="save">保存</string>
+</resources>

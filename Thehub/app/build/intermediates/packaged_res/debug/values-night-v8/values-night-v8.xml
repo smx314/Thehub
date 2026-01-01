@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#020617</color>
+    <color name="app_surface">#0F172A</color>
+    <color name="card_stroke">#1E293B</color>
+    <color name="divider">#1E293B</color>
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <style name="Theme.Thehub" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/app_background</item>
+        
+        <item name="colorSecondary">@color/accent_color</item>
+        <item name="colorSecondaryVariant">@color/accent_color</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+    </style>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.unihub.ui.dashboard.DashboardFragment"
+        android:label="首页"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_focus"
+        android:name="com.example.unihub.ui.focus.FocusFragment"
+        android:label="自律监督"
+        tools:layout="@layout/fragment_focus" />
+
+    <fragment
+        android:id="@+id/navigation_finance"
+        android:name="com.example.unihub.ui.finance.FinanceFragment"
+        android:label="财务"
+        tools:layout="@layout/fragment_finance" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.unihub.ui.profile.ProfileFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.unihub.ui.profile.SettingsFragment"
+        android:label="通用设置"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.example.unihub.ui.profile.AboutFragment"
+        android:label="关于 Thehub"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/navigation_feedback"
+        android:name="com.example.unihub.ui.profile.FeedbackFragment"
+        android:label="意见反馈"
+        tools:layout="@layout/fragment_feedback" />
+</navigation>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_color">#F472B6</color>
+    <color name="app_background">#F8FAFC</color>
+    <color name="app_surface">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="card_stroke">#E2E8F0</color>
+    <color name="divider">#F1F5F9</color>
+    <color name="error">#EF4444</color>
+    <color name="gray_light">#E2E8F0</color>
+    <color name="primary_alpha_20">#3300E5FF</color>
+    <color name="primary_color">#00E5FF</color>
+    <color name="primary_dark">#00B8D4</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#00E5FF</color>
+    <color name="purple_700">#00B8D4</color>
+    <color name="success">#10B981</color>
+    <color name="teal_200">#F472B6</color>
+    <color name="teal_700">#DB2777</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="warning">#F59E0B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_expense">记一笔</string>
+    <string name="app_name">Thehub</string>
+    <string name="campus_title">校园助手</string>
+    <string name="finance_title">财务管理</string>
+    <string name="save">保存</string>
+    <string name="tools_title">极客工具</string>
+    <style name="NumericAction" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/accent_color</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="NumericButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/divider</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="TechButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="backgroundTint">@color/primary_color</item>
+        <item name="android:textColor">@color/app_background</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TechCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/app_surface</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/card_stroke</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    <style name="TechTextBody" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="TechTextTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.Thehub" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/accent_color</item>
+        <item name="colorSecondaryVariant">@color/accent_color</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+    </style>
+</resources>

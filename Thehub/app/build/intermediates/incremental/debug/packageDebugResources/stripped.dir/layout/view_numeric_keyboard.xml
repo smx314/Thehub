@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:padding="8dp"
+    android:background="@color/app_surface">
+
+    <!-- 第一行 -->
+    <Button style="@style/NumericButton" android:text="7" />
+    <Button style="@style/NumericButton" android:text="8" />
+    <Button style="@style/NumericButton" android:text="9" />
+    <Button style="@style/NumericAction" android:text="DEL" />
+
+    <!-- 第二行 -->
+    <Button style="@style/NumericButton" android:text="4" />
+    <Button style="@style/NumericButton" android:text="5" />
+    <Button style="@style/NumericButton" android:text="6" />
+    <Button style="@style/NumericAction" android:text="C" />
+
+    <!-- 第三行 -->
+    <Button style="@style/NumericButton" android:text="1" />
+    <Button style="@style/NumericButton" android:text="2" />
+    <Button style="@style/NumericButton" android:text="3" />
+    <Button style="@style/NumericAction" android:id="@+id/btn_done" android:text="OK" android:layout_rowSpan="2" android:layout_gravity="fill" />
+
+    <!-- 第四行 -->
+    <Button style="@style/NumericButton" android:text="0" android:layout_columnSpan="2" android:layout_gravity="fill" />
+    <Button style="@style/NumericButton" android:text="." />
+
+</GridLayout>
