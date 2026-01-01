@@ -28,19 +28,6 @@ class ScheduleViewModel(private val repository: ScheduleRepository) : ViewModel(
         _selectedYear.value = year
     }
 
-    /**
-     * 调用 Repository 同步用户指定 URL 的云端数据
-     */
-    fun refreshSchedules(url: String, onSuccess: () -> Unit, onError: (String) -> Unit) = viewModelScope.launch {
-        try {
-            val uid = _userId.value ?: "guest"
-            repository.refreshSchedules(uid, url)
-            onSuccess()
-        } catch (e: Exception) {
-            onError(e.message ?: "未知错误")
-        }
-    }
-
     fun insert(schedule: Schedule) = viewModelScope.launch {
         repository.insert(schedule)
     }
